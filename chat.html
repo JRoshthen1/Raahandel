@@ -5,20 +5,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
-    </style>
+<style>@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');</style>
 <link rel="stylesheet" href="chatstyle.css">
 </head>
 
 
 <body>
-<button class="openChatBtn" onclick="openForm()">Chat</button>
+<button class="openChatBtn" onclick="openForm()"><img class="chat-icon" src="imgs/chatico.png" alt="chaticon"></button>
 <div class="openChat">
 <form>
 <h2>Chat with RÅHANDEL</h2>
 <label for="msg"><b>Message</b></label>
-<textarea placeholder="Type message.." name="msg" required></textarea>
+<textarea placeholder="Your message..." name="msg" required></textarea>
 <button type="submit" class="btn">Send</button>
 <button type="button" class="btn close" onclick="closeForm()">
 Close

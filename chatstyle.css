@@ -15,7 +15,8 @@
     position: fixed;
     bottom: 23px;
     right: 28px;
-    width: 280px;
+    align-items: center;
+    justify-content: center;
  }
  .openChat {
     display: none;
@@ -62,4 +63,8 @@
  }
  form .btn:hover, .openChatBtn:hover {
     opacity: 1;
+ }
+
+ .chat-icon{
+    width: 50px;
  }
